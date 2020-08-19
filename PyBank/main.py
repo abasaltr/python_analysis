@@ -44,7 +44,7 @@ with open(file_path_source, 'r') as csvfile:
     i = 0
     variance = []
 
-    # Read each row of data within the "Profit/Losses" column
+    # Read each row of data within the money list
     # Calculate the change by subtracting the amount at current row from the next row
     # and appending it to the variance list and then for each iteration increment index by one
     # Assign the current gpi and gld and its row number based on the condition that 
